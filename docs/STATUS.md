@@ -8,7 +8,11 @@ Standalone static starter, with sample app, Node tests, Chromium/WebKit/mobile W
 
 ## Verified versus pending
 
-Source project's HTML Printer checks passed run 240, as linked in LESSONS.md. This is provenance only. This repository's import PR and Starter quality workflow record its independent CI results; they are pending at the time of this import. No new Cloudflare project/domain was provisioned, no credentials were copied, and no dashboard setting was verified.
+Standalone import commit 9a18b4e9d9b8d762bf18ecc7bd695a07b2af10c9 passed both static/build and Chromium/WebKit/mobile WebKit jobs on 2026-09-06:
+https://github.com/avyanbhattacharya/local-first-web-starter/actions/runs/34007296544
+Import and subsequent documentation checks are recorded in this repository's PR #1. No new Cloudflare project/domain was provisioned, no credentials were copied, and no dashboard setting was verified.
+
+The following source-project results are provenance only.
 
 Starter implementation commit 26ad839dc8b62a415677c80b4dba33e70f9b8b90 passed its own static and browser jobs on 2026-09-06:
 https://github.com/avyanbhattacharya/passport-photo-web/actions/runs/34004821805
